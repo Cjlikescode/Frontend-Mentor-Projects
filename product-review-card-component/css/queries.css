@@ -1,0 +1,28 @@
+@media (max-width: 84em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 47em) {
+  .container {
+    max-width: 40rem;
+  }
+
+  .card-component-section {
+    padding: 3.2rem;
+  }
+
+  .card {
+    display: block;
+    margin-top: 3.2rem;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+
+  .card-text-box {
+    padding: 2.4rem 4.8rem;
+  }
+}
