@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.order-summary-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(225, 100%, 94%) url(imgs/pattern-background-mobile.svg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.order-card {
+  max-width: 35rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.order-card-img {
+  border-radius: 1rem;
+}
+
+.order-img {
+  width: 100%;
+}
+
+.order-card-text-box {
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-card-title {
+  margin-top: 1.2rem;
+  font-size: 2.4rem;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.order-card-text {
+  font-size: 1.4rem;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.plan-price-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: hsla(225, 100%, 94%, 0.384);
+  width: 30rem;
+  gap: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.plan-price-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.plan-price-text {
+  font-size: 1.2rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-details {
+  margin-right: auto;
+}
+
+.music-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.pricing-btn:link,
+.pricing-btn:visited {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+
+.pricing-btn:active,
+.pricing-btn:hover {
+  color: #7469e9;
+}
+
+.payment-btn:link,
+.payment-btn:visited {
+  display: inline-block;
+  width: 30rem;
+  padding: 1.4rem 3.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #3829e0;
+  color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.2rem;
+  transition: all 0.3s;
+}
+
+.payment-btn:active,
+.payment-btn:hover {
+  background-color: #7469e9;
+}
+
+.cancel-order-btn:link,
+.cancel-order-btn:visited {
+  color: hsl(224, 23%, 55%);
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.cancel-order-btn:active,
+.cancel-order-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
